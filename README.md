@@ -43,7 +43,8 @@ X-Studio, Academy of Art & Design, Tsinghua University</br>
 Team Captain, Fabrication (Mechanic design & modeling, panel beating, wood board laser cutting)，Hardware (assembling and testing)
 
 Yejun Liu</br>
-Research Group of Human Computer Speech Interaction, Department of Computer Science and Technology, Tsinghua University</br>
+Research Group of Human Computer Speech Interaction, </br>
+Department of Computer Science and Technology, Tsinghua University</br>
 UI Design, App Design, Software(HTML, Javascript, nw.js),  Graphics(WebGL)</br>
 
 Chengpeng Mao(http://mcpportfolio.aliapp.com/)</br>
