@@ -1,0 +1,584 @@
+/*---------------------------------ABC SELECTOR----------------------------------*/
+
+.ABC{
+    width: 90px;
+    height: 30px;
+    position: relative;
+    margin: 15px auto 10px auto;
+    border-radius: 15px;
+    border:1px solid #ff8933;
+    background: white;
+}
+
+.toggle{
+    width: 32px;
+    height: 32px;
+    left:30px;
+    top:-1px;
+    position: absolute;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: #ff8933;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.radios {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    opacity: 0;
+    z-index:1;
+}
+.radios:nth-of-type(2) {
+    left: 33.33333%;
+}
+.radios:nth-of-type(3) {
+    left: 66.66667%;
+}
+
+.ABC .labels {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left:0;
+    text-align: center;
+    line-height:30px;
+    font-family: "futura";
+    color: #fb8642;
+    font-size: 18px;
+    -webkit-animation: 6s rot-label ease-in-out infinite;
+    -moz-animation: 6s rot-label ease-in-out infinite;
+    -o-animation: 6s rot-label ease-in-out infinite;
+    animation: 6s rot-label ease-in-out infinite;
+}
+#A_label{
+    color:white;
+}
+
+.ABC .labels:nth-child(2) {
+    left: 33.33333%;
+    animation-delay: 2s;
+}
+.ABC .labels:nth-child(3) {
+    left: 66.66667%;
+    animation-delay: 4s;
+}
+
+#A:checked ~ .toggle {
+    left:-1px;
+}
+#C:checked ~ .toggle {
+    left:60px;
+}
+
+/*-----------------------------------CONTROL PART----------------------------------*/
+
+.Selects{
+    margin: auto;
+    background-color: #ffffff;
+    border-top:1px solid #ff8933;
+    border-bottom:2px solid #ff8933;
+}
+.BasePart{
+    margin: auto;
+}
+._Input{
+    width: 220px;
+    height: 25px;
+    position: relative;
+    margin:10px auto;
+    border-radius: 12px;
+    background: white;
+    overflow: hidden;
+    border:1px solid #ff8933;
+}
+.B_Input{
+    width: 220px;
+    height: 25px;
+    position: relative;
+    margin:20px auto;
+    border-radius: 12px;
+    background: rgba(248, 119, 64, 0.82);
+    overflow:hidden;
+}
+
+._Input_Title{
+    font-family: futura;
+    color: #fb7a30;
+    padding: 0 10PX;
+    float:left;
+    line-height:25px;
+    font-size:12px;
+    text-align: center;
+    width:54px;
+}
+
+.B_Input_Title{
+    font-family: futura;
+    color: #ffffff;
+    padding: 0 10PX;
+    float:left;
+    line-height:25px;
+    font-size:12px;
+    text-align: center;
+    width:54px;
+}
+/*---------------------------------HEAD CONTROLLER----------------------------------*/
+
+.HeadControl{
+    width:115px;
+    background-color:white;
+    height:25px;
+    float:left;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.HeadInput{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+    float: left;
+
+}
+.HeadInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.HeadInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.HeadInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+
+.Head_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+.Head_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.Head_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+
+
+/*---------------------------------MOUTH CONTROLLER----------------------------------*/
+
+.MouthControl{
+    float:left;
+    width:115px;
+    background-color:white;
+    height:25px;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.MouthInput{
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+    float: left;
+
+}
+.MouthInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.MouthInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.MouthInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+.Mouth_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.Mouth_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.Mouth_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+/*---------------------------------LEFTHAND CONTROLLER----------------------------------*/
+
+.LHControl{
+    float:left;
+    width:115px;
+    background-color:white;
+    height:25px;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.LHInput{
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+
+}
+.LHInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.LHInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.LHInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+.LH_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.LH_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.LH_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+/*---------------------------------RIGHTHAND CONTROLLER----------------------------------*/
+
+
+.RHControl{
+    float:left;
+    width:115px;
+    background-color:white;
+    height:25px;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.RHInput{
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+
+}
+.RHInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.RHInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.RHInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+
+.RH_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.RH_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.RH_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+
+/*---------------------------------BODY CONTROLLER----------------------------------*/
+
+
+.BodyControl{
+    float:left;
+    width:115px;
+    background-color:white;
+    height:25px;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.BodyInput{
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+
+}
+.BodyInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.BodyInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.BodyInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+
+.Body_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.Body_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.Body_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+/*---------------------------------PANEL CONTROLLER----------------------------------*/
+
+
+.PControl{
+    float:left;
+    width:115px;
+    background-color:white;
+    height:25px;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+}
+
+.PInput{
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    background-color: #e6e6e6;
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+
+}
+.PInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.PInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.PInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+
+.Panel_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.Panel_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.Panel_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+
+/*---------------------------------PANEL CONTROLLER----------------------------------*/
+
+
+.BaseControl{
+    float:left;
+    width:115px;
+    background-color:transparent;
+    height:25px;
+    border-left:1px solid #ffffff;
+    border-right:1px solid #ffffff;
+}
+
+.BaseInput{
+    cursor: pointer;
+    float:left;
+    -webkit-appearance: none;
+    background-color: white;
+    width: 80px;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px auto;
+    outline: 0;
+    z-index:10;
+
+}
+.BaseInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #e74c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.BaseInput::-webkit-slider-thumb:hover {
+    background-color: white;
+    border: 1px solid #e74c3c;
+}
+.BaseInput::-webkit-slider-thumb:active {
+    transform: scale(1.3);
+}
+
+.Base_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:0;
+    background:url(../../resource/images/plus_white.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+.Base_plus:hover{
+    background:url(../../resource/images/plus_hover_2.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+.Base_plus:active{
+    background:url(../../resource/images/plus.png) no-repeat center;
+    background-size:15px;
+}
+
+
+

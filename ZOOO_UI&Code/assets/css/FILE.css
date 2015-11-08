@@ -1,0 +1,59 @@
+.file_a_2{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:20px;
+    float: right;
+    margin:10px 10px;
+    overflow:hidden;
+
+
+}
+.file_a_2 input{
+    width:25px;
+    height:25px;
+    font-size:30px;
+    opacity:0;
+
+}
+
+.file_a_2:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:20px;
+    transform: scale(1.1);
+}
+
+#intro_file{
+    float:left;
+    margin-left:10px;
+    height:50px;
+    color: #fb8642;
+    line-height: 50px;
+    font-family: futura;
+    font-size:13px;
+}
+
+#file_n{
+    float:left;
+    margin-left:10px;
+    width:240px;
+    height:50px;
+    color: rgba(0, 0, 0, 0.77);
+    line-height: 50px;
+    font-family: futura;
+    font-size:15px;
+
+}
+
+
+/*-------------------------------------*/
+
+
+.pathNameStorage{
+    opacity: 0;
+    width:0;
+    overflow: hidden;
+}

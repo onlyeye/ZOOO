@@ -1,0 +1,11 @@
+#canvas-frame-A,#canvas-frame-B,#canvas-frame-C {
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 333px;
+    margin-top:31px;
+    position: absolute;
+    background-color: #EEEEEE;
+    opacity: 1;
+}
+

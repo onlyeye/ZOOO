@@ -1,0 +1,214 @@
+/*---------------------------------ABC SELECTOR----------------------------------*/
+
+.ABC_2{
+    width: 90px;
+    height: 30px;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 15px;
+    background: white;
+    border:1px solid #ff8933;
+}
+
+.ABC_2 .toggle_2{
+    width: 32px;
+    height: 32px;
+    left:30px;
+    top:-1px;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #ff8933;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.ABC_2 input {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index:1;
+}
+.ABC_2 input:nth-child(2) {
+    left: 33.33333%;
+}
+.ABC_2 input:nth-child(3) {
+    left: 66.66667%;
+}
+
+.ABC_2 .labels_2 {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 30px;
+    font-family: "futura";
+    color: #fb8642;
+    font-size: 18px;
+    -webkit-animation: 6s rot-label ease-in-out infinite;
+    -moz-animation: 6s rot-label ease-in-out infinite;
+    -o-animation: 6s rot-label ease-in-out infinite;
+    animation: 6s rot-label ease-in-out infinite;
+}
+#A_label_2{
+    color:white;
+}
+
+.ABC_2 .labels_2:nth-child(2) {
+    left: 33.33333%;
+    animation-delay: 2s;
+}
+.ABC_2 .labels_2:nth-child(3) {
+    left: 66.66667%;
+    animation-delay: 4s;
+}
+
+#A2:checked ~ .toggle_2 {
+    left:-1px;
+}
+#C2:checked ~ .toggle_2 {
+    left:60px;
+}
+
+#BG_radio_out{
+    width:inherit;
+    height:40px;
+    text-align: center;
+    float:left;
+}
+
+.BG_radio{
+    float:left;
+    margin:auto;
+    cursor: pointer;
+    display: none;
+}
+.BG_radio_label{
+
+    font-family: futura;
+    color:#fb7a30;
+    cursor: pointer;
+
+}
+
+#BG_radio_label_out{
+    width:80px;
+    height:20px;
+    font-family: futura;
+    color:#fb7a30;
+    border-radius: 10px;
+    border:1px solid #fb7a30;
+    margin:0px auto;
+}
+
+/*---------------------------------SOUND Library----------------------------------*/
+.Sound_Lib{
+    margin: auto;
+
+}
+
+#sound_get{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:20px;
+    cursor: pointer;
+    position: absolute;
+    margin:auto 20px;
+}
+
+#sound_get:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:20px;
+    transform: scale(1.1);
+}
+
+#sound_get:active{
+    background:url(../../resource/images/plus_white.png) no-repeat center;
+    background-size:20px;
+}
+
+
+._File,.M_File{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    margin:10px auto;
+    border-radius: 13px;
+    background: white;
+    overflow:hidden;
+    border:1px solid #ff8933;
+}
+
+.file_a{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:20px;
+    float: left;
+    margin:auto 10px;
+    overflow:hidden;
+
+
+}
+.file_a input{
+    position:absolute;
+    width:25px;
+    height:25px;
+    font-size:30px;
+    opacity:0;
+
+}
+.file_a:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:20px;
+    transform: scale(1.1);
+}
+._File_Name,.M_File_Name{
+    font-family: futura;
+    color: #fb7a30;
+    margin:auto;
+    float:left;
+    height:25px;
+    line-height:25px;
+    font-size:12px;
+    text-align: center;
+    width:170px;
+    border-right:1px solid #ff8933;
+}
+
+._File_plus,.M_File_plus{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border:0;
+    border-radius: 50%;
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+    margin:auto;
+}
+
+._File_plus:hover,.M_File_plus:hover{
+    background:url(../../resource/images/plus_hover.png) no-repeat center;
+    background-size:15px;
+    transform: scale(1.1);
+}
+
+._File_plus:active,.M_File_plus:active{
+    background:url(../../resource/images/plus_orange.png) no-repeat center;
+    background-size:15px;
+}
+

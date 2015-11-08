@@ -1,0 +1,231 @@
+#window input{
+    display:none;
+    border:none;
+    float:left
+}
+
+#upload,#preview,#play,#stop,#pause{
+    width:40px;
+    height:40px;
+    padding:25px;
+    float:left;
+    -webkit-appearance: none;
+    border:0;
+    cursor: pointer;
+}
+
+
+#clean,#link{
+    width:40px;
+    height:40px;
+    padding:25px 28px;
+    float:left;
+    -webkit-appearance: none;
+    border:0;
+    cursor: pointer;
+}
+
+.UNCONNECT{
+    background:url(../../resource/images/UNCONNECT.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    border-right:1px dotted white;
+}
+.CONNECT{
+    background:url(../../resource/images/CONNECT.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    border-right:1px dotted white;
+}
+#preview{
+    background:url(../../resource/images/PREVIEW.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+}
+#play{
+    background:url(../../resource/images/PLAY.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+}
+
+#pause{
+    background:url(../../resource/images/PAUSE.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+}
+
+#upload{
+    background:url(../../resource/images/UPLOAD.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    border-left:1px dotted white;
+    border-right:1px dotted white;
+}
+#stop{
+    background:url(../../resource/images/STOP.png) no-repeat center;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+}
+
+#clean{
+    background:url(../../resource/images/CLEAN.png) no-repeat center;
+    -webkit-background-size: 30px;
+    background-size: 30px;
+}
+#preview:hover{
+    background:url(../../resource/images/PREVIEW_HOVER.png) no-repeat center;
+    -webkit-background-size: 38px;
+    background-size: 38px;
+}
+
+#play:hover{
+    background:url(../../resource/images/PLAY.svg) no-repeat center;
+}
+#pause:hover{
+    background:url(../../resource/images/PAUSE_HOVER.png) no-repeat center;
+}
+
+#stop:hover{
+    background:url(../../resource/images/STOP_HOVER.png) no-repeat center;
+    -webkit-background-size: 22px;
+    background-size: 22px;
+}
+
+#upload:hover{
+    background:url(../../resource/images/UPLOAD_HOVER.png) no-repeat center;
+    -webkit-background-size: 22px;
+    background-size: 22px;
+    transform: rotate(180deg);
+}
+
+
+
+/*--------------------------Windows--------------------------*/
+#w1,#w2,#w3{
+    height: 370px;
+    float:left;
+    background-color: #fafafa;
+    margin:13px auto;
+    border-radius: 10px;
+    margin-left:15px;
+    overflow:hidden;
+    border: 1px solid #ff8933;
+
+}
+
+#w1{
+    width:290px;
+}
+
+#w2{
+    width:360px;
+}
+
+#w3{
+    width:300px;
+
+}
+
+
+/*---------------------------------------------------------------*/
+
+#w1_title,#w2_title,#w3_title{
+    height: 30px;
+    width:inherit;
+    float:left;
+    background-image: -webkit-repeating-linear-gradient(135deg, #f0f0f0,
+    #F0F0F0 1px, white 1.5px, white 8px);
+    color: #fb7a30;
+    font-family: "DIN Alternate";
+    font-size: 20px;
+    text-align: center;
+    line-height:30px;
+    border-bottom: 1px solid #ff8933;
+}
+
+
+
+
+/*------------------------------------------------------*/
+#Base_0{
+    width:290px;
+    height:290px;
+    margin:30px auto 0px auto;
+    position:relative;
+    text-align:center;
+
+}
+
+#BASE_RED,#BASE_GREEN,#BASE_BLUE{
+    border-radius: 50%;
+    width:81px;
+    height:81px;
+    position:absolute;
+}
+#BASE_RED{
+    left:104px;
+    top:159px;
+}
+
+#BASE_GREEN{
+    left:59px;
+    top:78px;
+    transform:rotate(120deg);
+}
+#BASE_BLUE{
+    left:150px;
+    top:78px;
+    transform:rotate(-120deg);
+}
+
+#body_red,#body_green,#body_blue{
+    border-radius: 50%;
+    width:31px;
+    height:31px;
+    position:absolute;
+    left:26px;
+    top:43px;
+}
+
+/*------------------------------------------------------*/
+#Font_0{
+    width:290px;
+    height:290px;
+    margin:30px auto 0px auto;
+    position:relative;
+    text-align:center;
+    perspective: 600px;
+
+}
+
+#FONT_RED,#FONT_GREEN,#FONT_BLUE{
+    width:40px;
+    height:146px;
+    position:absolute;
+
+}
+#FONT_RED{
+    left:125px;
+    top:65px;
+}
+
+#FONT_GREEN{
+    left:50px;
+    top:101px;
+}
+#FONT_BLUE{
+    left:200px;
+    top:101px;
+}
+
+
+#div input{
+    height:10px;
+}
+
+#audioOut{
+    width:inherit;
+    float:left;
+    height:20px;
+    background-color:#000088;
+}

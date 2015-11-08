@@ -1,0 +1,392 @@
+/*---------------------------------LEFT PART----------------------------------*/
+.b_left{
+    width:250px;
+    float:left;
+    height:inherit;
+    border-right: 1px solid #ff8933;
+    border-top: 2px solid #d9752b;
+    overflow:hidden;
+}
+/*-----------------------LEFT PART-title------------------------------*/
+.footer{
+    width:inherit;
+    height:25px;
+    background-color: #ff8933;
+    border-bottom: 1px solid #ff8933;
+    float:left;
+    opacity:0.8;
+
+}
+
+#TimePart{
+    width: 133px;
+    height: 25px;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    background: #fb7a30;
+    float: right;
+}
+
+.CurrentTime{
+    -webkit-appearance: none;
+    font-family: "DIN Alternate";
+    width:55px;
+    height:23px;
+    color:#fb7a30;
+    font-size:18px;
+    text-align:center;
+    border:0;
+    background-color: white;
+    float:left;
+}
+.showtitle{
+    margin:3px 8px;
+    float:left;
+    font-family: "DIN Alternate";
+    font-size:18px;
+    color: white;
+    float:left;
+}
+
+.showtitle2{
+    margin:3px 5px;
+    float:left;
+    font-family: "DIN Alternate";
+    font-size:18px;
+    color: white;
+    float:left;
+}
+
+/*-----------------------LEFT PART-content------------------------------*/
+#Head{
+    width:inherit;
+    /*height:209px;*/
+    height: inherit;
+    border-bottom: 1px solid #c6c6c6;
+    float:left;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/*-------------------LEFT PART-A&B&C----------------------*/
+#panelAs,#panelBs,#panelCs{
+    width:inherit;
+    height:181px;
+    float:left;
+
+}
+#panelAs{
+    border-bottom: 2px solid #cd694a;
+}
+#panelBs{
+    border-bottom: 2px solid #44cc89;
+}
+#panelCs{
+    border-bottom: 2px solid #5a6fcc;
+}
+.Base,.BGSound{
+    width:inherit;
+    height:100px;
+    float:left;
+    border-bottom: 2px solid rgb(250, 255, 251);
+    background-color: rgb(255, 137, 67);
+    opacity:0.5;
+    align-content: center;
+    text-align: center;
+    font-family: "DIN Alternate";
+    font-size: 30px;
+    color: white;
+}
+
+
+/*--------------------ABC title------------------------*/
+#panelA_h,#panelB_h,#panelC_h {
+    width: 45px;
+    height: 181px;
+    align-content: center;
+    text-align: center;
+    border-right: 1px solid white;
+    font-family: futura;
+    font-size: 40px;
+    color: white;
+    float:left;
+    opacity: 0.8;
+}
+
+#panelA_h{
+    background-color: #cc6344;
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+transparent 75%, transparent);
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+}
+#panelB_h{
+    background-color: #49cc64;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+    color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+    color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+    color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+    to(transparent));
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+}
+
+#panelC_h{
+    background-color: #5a6fcc;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+    color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+    color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+    color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+    to(transparent));
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+    transparent 75%, transparent);
+}
+
+
+/*--------------------ABC List------------------------*/
+#panelA_p,#panelB_p,#panelC_p{
+    width:100%;
+    height:181px;
+    font-family: "DIN Alternate";
+    margin-left:45px;
+    font-size: 20px;
+    background-color: #f6f6f6;
+    opacity: 0.8;
+
+}
+
+#panelA_p{
+    color: #cd725d;
+}
+
+#panelB_p{
+    color: #62d194;
+}
+#panelC_p{
+    color: #6e7bce;
+}
+
+
+#head_a,#mouth_a,#lefthand_a,#righthand_a,#body_a,#panel_a,#sound_a{
+    width:100%;
+    height:25px;
+    border-bottom: 1px solid #d1d1d1;
+    background-color:transparent;
+}
+
+#head_b,#mouth_b,#lefthand_b,#righthand_b,#body_b,#panel_b,#sound_b{
+    width:100%;
+    height:25px;
+    border-bottom: 1px solid #d1d1d1;
+    background-color:transparent;
+}
+
+#head_c,#mouth_c,#lefthand_c,#righthand_c,#body_c,#panel_c,#sound_c{
+    width:100%;
+    height:25px;
+    border-bottom: 1px solid #d1d1d1;
+    background-color:transparent;
+
+}
+
+
+
+
+
+
+/*---------------------------------RIGHT PART----------------------------------*/
+
+.b_right{
+    width:inherit;
+    margin-left:250px;
+    height:inherit;
+    border-top: 2px solid #d9752b;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    border-bottom: 0;
+    position:relative;
+
+}
+
+/*-------------------- Ruler------------------------*/
+.slider{
+    width:15040px;
+    height:25px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ff8933;
+    position:absolute;
+    z-index:2;
+}
+#kedu_up{
+    height:inherit;
+
+    z-index:1;
+    position:absolute;
+}
+
+#kedu{
+    height:inherit;
+    width:15040px;
+    margin-left:14px;
+    z-index:0;
+    position:absolute;
+
+}
+
+#kedu_num{
+    height:15px;
+    margin-left:14px;
+    z-index:0;
+    position:absolute;
+}
+.seconds_name{
+    line-height: 15px;
+    font-family: futura;
+    font-size: 9px;
+    width:60px;
+    color:#ff8933;
+    float:left;
+
+}
+
+.seconds{
+    width:59px;
+    height:10px;
+    border-left:1px solid #ff8933;
+    float:left;
+    margin-top:15px
+}
+
+.mseconds{
+    width:5px;
+    height:6px;
+    border-left:1px solid #ff8933;
+    float:left;
+    margin-top:4px;
+}
+.mseconds_1{
+    width:5px;
+    height:6px;
+    float:left;
+    margin-top:4px;
+}
+
+.TimeController{
+    cursor: pointer;
+    -webkit-appearance: none;
+    width:15030px;
+    height: 5px;
+    outline:none;
+    margin:8px 0;
+    background-color:transparent;
+    animation:1000;
+    z-index:1;
+
+}
+.TimeController::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background:url(../../resource/images/float-change.svg) no-repeat center;
+    background-size:30px;
+    width:30px;
+    height:400px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color:transparent;
+    opacity: 0.9;
+}
+.TimeController::-webkit-slider-thumb:hover {
+
+}
+.TimeController::-webkit-slider-thumb:active {
+
+}
+
+
+/*-------------------- Timeline ALL------------------------*/
+.tg{
+    width:15060px;
+    /*height:209px;*/
+    height: inherit;
+    position:absolute;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    z-index:3;
+    top:26px;
+
+}
+/*--------------------  A&B&C timeline------------------------*/
+#panelA_tl,#panelB_tl,#panelC_tl,.Base_tl,.BGSound_tl{
+    width:inherit;
+    height:181px;
+    float:left;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-left: 15px solid #ff8933;
+    opacity: 0.8;
+}
+#panelA_tl{
+    border-bottom: 2px solid #cd694a;
+}
+#panelB_tl{
+    border-bottom: 2px solid #44cc89;
+}
+#panelC_tl{
+    border-bottom: 2px solid #5a6fcc;
+}
+.Base_tl,.BGSound_tl{
+    /*position: relative;*/
+    border-bottom: 2px solid #ff8943;
+    height:100px;
+}
+/*-------------------- timeline list------------------------*/
+#head_tl_a,#mouth_tl_a,#lefthand_tl_a,#righthand_tl_a,#body_tl_a,#panel_tl_a,#sound_tl_a{
+    width:100%;
+    height:25px;
+    border-top: 1px solid rgba(255, 137, 67, 0.5);
+    position: relative;
+}
+
+#head_tl_b,#mouth_tl_b,#lefthand_tl_b,#righthand_tl_b,#body_tl_b,#panel_tl_b,#sound_tl_b{
+    width:100%;
+    height:25px;
+    border-top: 1px solid rgba(255, 137, 67, 0.5);
+    position: relative;
+}
+
+#head_tl_c,#mouth_tl_c,#lefthand_tl_c,#righthand_tl_c,#body_tl_c,#panel_tl_c,#sound_tl_c{
+    width:100%;
+    height:25px;
+    border-top: 1px solid rgba(255, 137, 67, 0.5);
+    position: relative;
+}
+
+#Base_tl_0,#BGSound_tl_0{
+    width:100%;
+    height:100px;
+    border-bottom: 1px solid rgba(255, 137, 67, 0.5);
+    position: relative;
+}
+

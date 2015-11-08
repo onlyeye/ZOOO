@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="226px" height="226px" viewBox="0 0 226 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 10 + Oval 10 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-363.000000, -361.000000)">
+            <g id="Oval-10-+-Oval-10-Copy" sketch:type="MSLayerGroup" transform="translate(366.000000, 364.000000)">
+                <circle id="Oval-10" stroke-opacity="0.522956295" stroke="#CFCFCF" stroke-width="11" fill-opacity="0" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="110" cy="110" r="107"></circle>
+                <circle id="Oval-10-Copy" stroke-opacity="0.720250226" stroke="#FF8933" stroke-width="4" sketch:type="MSShapeGroup" cx="110.375" cy="110.625" r="110.375"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

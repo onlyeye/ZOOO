@@ -1,0 +1,18 @@
+{
+  "main": "ZOOO.html",                              /* APP的主入口，文件名任意；必选 */
+  "name": "ZOOO",                                /* APP的名称，必须具备唯一性，且符合正常变量命名必选 */
+  "nodejs":true,
+
+  "description": "ZOOO is the controller",         /* APP的简单描述 */
+  "version": "0.1.0",                               /* APP的版本号 */
+  "keywords": [ "ZOOO" ],            /* APP的关键字，搜索APP时用到 */
+  "window": {                                       /* APP的窗口属性 */
+    "icon": "resource/images/app.icns",                           /* APP图标（windows下，状态栏上可见） */
+    "toolbar": true,                              /* 是否显示工具栏 */
+    "width": 1270,                                 /* 窗口初始化大小 */
+    "height": 707,
+	"resizable":true,
+    "frame": false,                                /* 是否显示外窗体，如最大化、最小化、关闭按钮 */
+	"show_in_taskbar":true						/* 是否在任务栏显示任务 */
+  }
+}

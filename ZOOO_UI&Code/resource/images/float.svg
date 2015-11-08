@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="603px" viewBox="0 0 35 603" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-196.000000, -230.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(196.000000, 230.000000)">
+                <rect id="Rectangle-3" fill="#181818" sketch:type="MSShapeGroup" x="0" y="291" width="35" height="21" rx="4"></rect>
+                <path d="M17.5,313.49827 L17.5,602.50174" id="Line" stroke="#050505" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M17.5,0.498269916 L17.5,289.50174" id="Line-Copy" stroke="#EFEFEF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <polygon id="Triangle-1" fill="#181818" sketch:type="MSShapeGroup" transform="translate(17.500000, 314.000000) scale(1, -1) translate(-17.500000, -314.000000) " points="17.5 310 24 318 11 318 "></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
